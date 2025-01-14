@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* fixed qismi */
+.container {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: 1px 1px 5px black;
+}
+
+.fix {
+    width: 200px;
+    height: 50px;
+}
+
+.fixx {
+    position: relative;
+    width: 360px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 300px;
+}
+
+.childd {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child {
+    position: relative;
+    width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child:nth-child(2) {
+    width: 120px;
+}
+
+.child:nth-child(3) {
+    width: 120px;
+}
+
+.child:nth-child(4) {
+    width: 120px;
+    justify-content: start;
+}
+
+.child:hover {
+    background-color: #CCCCCC;
+}
+
+.childd:hover {
+    background-color: #CCCCCC;
+}
+
+.childd:hover s {
+    color: #CCCCCC;
+}
+
+h1 {
+    font-family: "Roboto mono", sans-serif;
+    font-size: 18px;
+    color: gray;
+}
+
+span {
+    font-family: "Roboto mono", sans-serif;
+    gap: 25px;
+}
+
+s {
+    color: white;
+}
+
+
+/* big img */
+.bigimg {
+    width: 100%;
+    height: auto;
+}
+
+.bigimg img {
+    width: 100%;
+
+}
+
+.br {
+    position: absolute;
+    top: 350px;
+    width: 250px;
+    left: 600px;
+    height: 60px;
+    display: flex;
+}
+
+.br h2 {
+    color: lightgray;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.span {
+    width: 80px;
+    height: 60px;
+    font-size: 30px;
+    color: whitesmoke;
+    background-color: #000000a1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+
+}
+
+/* projects */
+.space {
+    margin: auto;
+    margin-top: 100px;
+    width: 96%;
+    height: 40px;
+    border-bottom: 2px solid whitesmoke;
+}
+
+h3 {
+    font-family: "Roboto mono", sans-serif;
+}
+
+/* rasm joylash */
+.rasm {
+    margin: auto;
+    margin-top: 50px;
+    width: 96%;
+    height: 205px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.rasm2 {
+    margin: auto;
+    margin-top: 15px;
+    width: 96%;
+    height: 205px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* small img */
+.img {
+    width: 305px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rasm .img:nth-child(1) {
+    background-image: url(https://www.w3schools.com/w3images/house5.jpg);
+}
+
+.rasm .img:nth-child(2) {
+    background-image: url(https://www.w3schools.com/w3images/house2.jpg);
+}
+
+.rasm .img:nth-child(3) {
+    background-image: url(https://www.w3schools.com/w3images/house3.jpg);
+}
+
+.rasm .img:nth-child(4) {
+    background-image: url(https://www.w3schools.com/w3images/house4.jpg);
+}
+
+.rasm2 .img:nth-child(1) {
+    background-image: url(https://www.w3schools.com/w3images/house2.jpg);
+}
+
+.rasm2 .img:nth-child(2) {
+    background-image: url(https://www.w3schools.com/w3images/house5.jpg);
+}
+
+.rasm2 .img:nth-child(3) {
+    background-image: url(https://www.w3schools.com/w3images/house4.jpg);
+}
+
+.rasm2 .img:nth-child(4) {
+    background-image: url(https://www.w3schools.com/w3images/house3.jpg);
+}
+
+.house {
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.house:hover h4 {
+    background-color: white;
+    color: black;
+}
+
+h4 {
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+p {
+    margin: auto;
+    margin-top: 20px;
+    width: 96%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+/* container2 */
+.container2 {
+    margin: auto;
+    margin-top: 40px;
+    width: 96%;
+    height: 425px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.about {
+    width: 95%;
+    height: 435px;
+}
+
+.do {
+    width: 100%;
+    height: 205px;
+    background-size: cover;
+    background-image: url(https://www.w3schools.com/w3images/team2.jpg);
+    filter: grayscale(60%);
+}
+
+.do2 {
+    width: 100%;
+    height: 205px;
+    background-size: cover;
+    background-image: url(https://www.w3schools.com/w3images/team1.jpg);
+    filter: grayscale(60%);
+
+}
+
+.do3 {
+    width: 100%;
+    height: 205px;
+    background-size: cover;
+    background-image: url(https://www.w3schools.com/w3images/team3.jpg);
+    filter: grayscale(60%);
+}
+
+.do4 {
+    width: 100%;
+    height: 205px;
+    background-size: cover;
+    background-image: url(https://www.w3schools.com/w3images/team4.jpg);
+    filter: grayscale(60%);
+}
+
+/* does */
+.does {
+    width: 100%;
+    height: 220px;
+}
+
+#doesh {
+    color: #000;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#as {
+    font-size: 15px;
+}
+
+p1 {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 15px;
+}
+
+.hover {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #F1F1F1;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover:hover {
+    background-color: #CCCCCC;
+}
+
+/* Contact qismi */
+.contact {
+    width: 96%;
+    height: 330px;
+    margin: auto;
+}
+
+input {
+    width: 99.5%;
+    height: 40px;
+}
+
+input:nth-child(2) {
+    margin-top: 20px;
+}
+
+input:nth-child(3) {
+    margin-top: 20px;
+}
+
+input:nth-child(4) {
+    margin-top: 20px;
+}
+
+.send {
+    margin-top: 30px;
+    width: 150px;
+    color: white;
+    background-color: #000;
+    transition: all 0.3s;
+}
+
+.send:hover {
+    background-color: #CCCCCC;
+    border: none;
+    color: #000;
+}
+
+h6 {
+    font-family: "Roboto-Mono", sans-serif;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+/* hjh */
+.hjj {
+    width: 96%;
+    height: 700px;
+    margin: auto;
+    margin-top: 40px;
+    background-image: url(https://www.w3schools.com/w3images/map.jpg);
+    background-size: cover;
+}
+
+.powered {
+    position: relative;
+    width: 100%;
+    height: 75px;
+    top: 10px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div {
+    width: 150px;
+    height: 25px;
+
+}
+
+#h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+
+/*for  tablets  */
+@media screen and (min-width:481px) and (max-width:993px) {
+    .bigimg {
+        width: auto;
+    }
+
+    .fixx {
+        left: 100px;
+    }
+
+    .rasm {
+        height: 500px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .rasm2 {
+        height: 500px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container2 {
+        height: max-content;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .img {
+        width: 96%;
+        margin-top: 10px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .do {
+        height: 42vh;
+    }
+
+    .do2 {
+        height: 42vh;
+    }
+
+    .do3 {
+        height: 42vh;
+    }
+
+    .do4 {
+        height: 42vh;
+    }
+
+    .about:nth-child(3) {
+        margin-top: 40px;
+    }
+
+    .about:nth-child(4) {
+        margin-top: 40px;
+    }
+
+    .hjj {
+        background-size: contain;
+    }
+
+
+}
+
+
+/* for phone */
+@media screen and (max-width:600px) {
+    .fixx {
+        display: none;
+    }
+
+    .br {
+        display: none;
+    }
+
+    .rasm {
+        height: max-content;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .rasm2 {
+        height: max-content;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .img {
+        width: 100%;
+        height: 50vh;
+        margin-top: 10px;
+    }
+
+    .container2 {
+        height: max-content;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    br {
+        display: none;
+    }
+}
